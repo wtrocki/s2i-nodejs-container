@@ -3,7 +3,7 @@
 # Prevent running assemble in builders different than official STI image.
 # The official nodejs:4-onbuild already run npm install and use different
 # application folder.
-[ -d "/usr/src/app" ] && exit 0
+#[ -d "/usr/src/app" ] && exit 0
 
 set -e
 
